@@ -1,0 +1,4 @@
+Task4 Results
+
+Video 0 : time on video - 18445 ms time above video - 11424 ms time below video - 0 ms match percentage - 100.0
+Video 1 : time on video - 27625 ms time above video - 0 ms time below video - 2057 ms match percentage - 16.6666666667

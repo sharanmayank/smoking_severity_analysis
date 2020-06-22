@@ -1,0 +1,21 @@
+Task1 Results
+
+Smoking Cues : avg rxn time - 799.0 ms avg num returns - 0.375 avg return time - 64.8125 ms
+Non Smoking Cues : avg rxn time - 1198.5 ms avg num returns - 0.125 avg return time - 125.375 ms
+
+Set 0 Image 0 : rxn time - 765 ms num ret - 2 ret time - 331.5 ms
+Set 0 Image 1 : rxn time - 0 ms num ret - 0 ret time - 0 ms
+Set 0 Image 2 : rxn time - 0 ms num ret - 0 ret time - 0 ms
+Set 0 Image 3 : rxn time - 0 ms num ret - 0 ret time - 0 ms
+Set 1 Image 0 : rxn time - 3213 ms num ret - 0 ret time - 0 ms
+Set 1 Image 1 : rxn time - 1292 ms num ret - 1 ret time - 187.0 ms
+Set 1 Image 2 : rxn time - 1309 ms num ret - 0 ret time - 0 ms
+Set 1 Image 3 : rxn time - 663 ms num ret - 1 ret time - 1003.0 ms
+Set 2 Image 0 : rxn time - 1122 ms num ret - 0 ret time - 0 ms
+Set 2 Image 1 : rxn time - 0 ms num ret - 0 ret time - 0 ms
+Set 2 Image 2 : rxn time - 3757 ms num ret - 0 ret time - 0 ms
+Set 2 Image 3 : rxn time - 3859 ms num ret - 0 ret time - 0 ms
+Set 3 Image 0 : rxn time - 0 ms num ret - 0 ret time - 0 ms
+Set 3 Image 1 : rxn time - 0 ms num ret - 0 ret time - 0 ms
+Set 3 Image 2 : rxn time - 0 ms num ret - 0 ret time - 0 ms
+Set 3 Image 3 : rxn time - 0 ms num ret - 0 ret time - 0 ms

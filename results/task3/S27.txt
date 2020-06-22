@@ -1,0 +1,20 @@
+Task3 Results
+
+Smoking Cues : avg time on cross - 4035.375 ms avg time on image - 48.875 ms
+Non Smoking Cues : avg time on cross - 3897.25 ms avg time on image - 0.0 ms
+Set 0 Image 0 : time on cross - 1462 ms time on image - 0 ms
+Set 0 Image 1 : time on cross - 5814 ms time on image - 0 ms
+Set 0 Image 2 : time on cross - 4352 ms time on image - 0 ms
+Set 0 Image 3 : time on cross - 4913 ms time on image - 0 ms
+Set 1 Image 0 : time on cross - 3247 ms time on image - 0 ms
+Set 1 Image 1 : time on cross - 4454 ms time on image - 0 ms
+Set 1 Image 2 : time on cross - 5882 ms time on image - 0 ms
+Set 1 Image 3 : time on cross - 5865 ms time on image - 0 ms
+Set 2 Image 0 : time on cross - 3213 ms time on image - 391 ms
+Set 2 Image 1 : time on cross - 4811 ms time on image - 0 ms
+Set 2 Image 2 : time on cross - 3519 ms time on image - 0 ms
+Set 2 Image 3 : time on cross - 4862 ms time on image - 0 ms
+Set 3 Image 0 : time on cross - 3961 ms time on image - 0 ms
+Set 3 Image 1 : time on cross - 5321 ms time on image - 0 ms
+Set 3 Image 2 : time on cross - 0 ms time on image - 0 ms
+Set 3 Image 3 : time on cross - 1785 ms time on image - 0 ms
