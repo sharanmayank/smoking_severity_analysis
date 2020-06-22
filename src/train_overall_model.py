@@ -57,19 +57,29 @@ for i in range(30):
     # regr = Ridge()
     # regr = Lasso()
     # regr = SVR()
-    # regr.fit(data[0:29], label_sev[0:29])
+    # regr.fit(tr_data, tr_label)
 
     f_name = models_dir + 'leave_' + str(i) + '_out.pb'
     # pickle.dump(regr, open(f_name, 'wb'))
 
     regr = pickle.load(open(f_name, 'rb'))
 
-    if i == 0:
-        # feat_avg = regr.feature_importances_
-        feat_avg = regr.coef_ * np.std(tr_data, 0)
+    if model == 'rf':
+        if i == 0:
+            feat_avg = regr.feature_importances_
+        else:
+            curr_feat = regr.feature_importances_
+
+            for idx in range(len(feat_avg)):
+                feat_avg[idx] += curr_feat[idx]
     else:
-        # curr_feat = regr.feature_importances_
-        curr_feat = regr.coef_ * np.std(tr_data, 0)
+        if i == 0:
+            feat_avg = regr.coef_ * np.std(tr_data, 0)
+        else:
+            curr_feat = regr.coef_ * np.std(tr_data, 0)
+
+            for idx in range(len(feat_avg)):
+                feat_avg[idx] += curr_feat[idx]
 
     test_arr = np.array(data[i])
     pred_label = regr.predict(test_arr.reshape(1, -1))
@@ -81,7 +91,12 @@ for i in range(30):
 
 mse = float(mse) / 30
 mae = float(mae) / 30
-feat_imp = np.abs(feat_avg) / np.sum(np.abs(feat_avg))
+
+if model == 'rf':
+    feat_imp = feat_avg / 30
+else:
+    feat_imp = np.abs(feat_avg) / np.sum(np.abs(feat_avg))
+
 print feat_imp
 print mse, mae
 
